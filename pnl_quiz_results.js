@@ -1,0 +1,13 @@
+var username = localStorage.getItem("u_name");
+var total_time = localStorage.getItem("total_time");
+var t_time = parseInt(total_time);
+var score_l = localStorage.getItem("res_correct");
+var score = parseInt(score_l);
+var wrong_score_l = localStorage.getItem("res_wrong");
+var wrong_score = parseInt(wrong_score_l);
+document.getElementById("username").innerHTML = username;
+document.getElementById("t_time").innerHTML = t_time;
+document.getElementById("attempted").innerHTML = score + wrong_score;
+document.getElementById("correct").innerHTML = score;
+document.getElementById("wrong").innerHTML = wrong_score;
+document.getElementById("percent").innerHTML = ((score / 10) * 100);

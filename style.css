@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 40px 0 10px 0;
+    border: 5px groove rgb(69, 126, 225);
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.center_content{
+    text-align: center;
+}
+
+/* style elements for home page selectors */
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+}
+
+#h_title1, #h_title2, #res_title1{
+    color: rgb(13, 127, 233);
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold ;
+}
+
+#name_label {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+#u_name{
+    width: 380px;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#enter_btn{
+    margin-top: -6px;
+}
+
+#h_txt1{
+    margin: 5px;
+    text-align: center;
+}
+
+#cat_list{
+    margin-left: 14%;
+    text-align: center;
+    row-gap: 100px;
+}
+
+#pc_btn, #prob_btn, #age_btn, #pl_btn, #start_again, #home{
+    width: 160px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#next_question{
+    margin: 15px 100px 15x 100px;
+}
+/* #cat_type{
+    margin-left: 40px;
+} */
+
+#cat_title1{
+    text-align: center;
+    margin: 3px 0px 3px 0px;
+}
+
+#score_display{
+    float: right;
+}
+
+#question{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+#opt1, #opt2, #opt3, #opt4{
+    width: 200px;
+    margin: 0px 10px;
+    text-align: center;
+    background-color: rgb(241, 250, 252);
+    color: rgb(60, 27, 228);
+    border: 3px solid rgb(52, 150, 226);
+    border-radius: 40px;
+}
+
+#next_question, #pc_quiz_submit{
+    text-align: center;
+    margin-left: 35%;
+    width: 150px;
+}
+
+#qno{
+    position: absolute;
+    margin-left: 48.5%;
+    left: 0px;
+    top: 30px;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: white;
+    color: rgb(28, 171, 227);
+    font-size: 16px;
+    font-weight: bold;
+}
